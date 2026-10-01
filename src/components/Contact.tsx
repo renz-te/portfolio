@@ -61,6 +61,11 @@ export default function Contact() {
             <a href="tel:+639942133053" className="text-muted-text text-xs leading-relaxed hover:text-primary-accent transition-colors block mt-1">
               0994 213 3053
             </a>
+            <div className="mt-3">
+              <span className="text-primary-accent text-[10px] font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Call or Message →
+              </span>
+            </div>
           </div>
 
           {/* Card 2: Email */}
@@ -78,6 +83,11 @@ export default function Contact() {
             <span className="mt-auto text-muted-text text-xs leading-relaxed group-hover:text-primary-accent transition-colors">
               danlagterence01@gmail.com
             </span>
+            <div className="mt-3">
+              <span className="text-primary-accent text-[10px] font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Send an Email →
+              </span>
+            </div>
           </a>
 
           {/* Card 3: Location & Availability */}
@@ -124,6 +134,11 @@ export default function Contact() {
             <span className="mt-auto text-muted-text text-xs leading-relaxed group-hover:text-primary-accent transition-colors">
               github.com/renz-te
             </span>
+            <div className="mt-3">
+              <span className="text-primary-accent text-[10px] font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                View Profile →
+              </span>
+            </div>
           </a>
 
           {/* Card 5: LinkedIn */}
@@ -143,6 +158,11 @@ export default function Contact() {
             <span className="mt-auto text-muted-text text-xs leading-relaxed group-hover:text-primary-accent transition-colors">
               Terence Danlag
             </span>
+            <div className="mt-3">
+              <span className="text-primary-accent text-[10px] font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Let's Connect →
+              </span>
+            </div>
           </a>
 
         </div>
