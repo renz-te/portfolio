@@ -42,11 +42,11 @@ export default function Contact() {
         </div>
 
         {/* Contact Cards */}
-        <div className="grid sm:grid-cols-6 gap-5 mb-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-5 mb-14">
           
           {/* Card 1: Mobile & Messaging */}
           <div
-            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center sm:col-span-2 ${
+            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center lg:col-span-2 ${
               isInView ? 'animate-fade-in-up' : 'opacity-0'
             }`}
             style={{ animationDelay: '0.2s' }}
@@ -66,7 +66,7 @@ export default function Contact() {
           {/* Card 2: Email */}
           <a
             href="mailto:danlagterence01@gmail.com"
-            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center sm:col-span-2 ${
+            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center justify-center lg:col-span-2 ${
               isInView ? 'animate-fade-in-up' : 'opacity-0'
             }`}
             style={{ animationDelay: '0.3s' }}
@@ -85,7 +85,7 @@ export default function Contact() {
             href="https://maps.google.com/?q=General+Trias,+Cavite,+Philippines"
             target="_blank"
             rel="noopener noreferrer"
-            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center sm:col-span-2 ${
+            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center lg:col-span-2 ${
               isInView ? 'animate-fade-in-up' : 'opacity-0'
             }`}
             style={{ animationDelay: '0.4s' }}
@@ -112,7 +112,7 @@ export default function Contact() {
             href="https://github.com/renz-te"
             target="_blank"
             rel="noopener noreferrer"
-            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center sm:col-span-2 sm:col-start-2 ${
+            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center md:col-span-1 lg:col-span-2 lg:col-start-2 ${
               isInView ? 'animate-fade-in-up' : 'opacity-0'
             }`}
             style={{ animationDelay: '0.5s' }}
@@ -122,7 +122,8 @@ export default function Contact() {
             </div>
             <h3 className="text-light-text font-bold text-sm mb-2">GitHub</h3>
             <span className="mt-auto text-muted-text text-xs leading-relaxed group-hover:text-primary-accent transition-colors">
-Fido            </span>
+              github.com/renz-te
+            </span>
           </a>
 
           {/* Card 5: LinkedIn */}
@@ -130,7 +131,7 @@ Fido            </span>
             href="https://linkedin.com/in/terence-danlag-a3500b3ba/"
             target="_blank"
             rel="noopener noreferrer"
-            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center sm:col-span-2 ${
+            className={`group block p-6 rounded-2xl bg-primary-bg/60 border border-primary-accent/10 hover:border-primary-accent/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-accent/5 text-center flex flex-col items-center md:col-span-1 lg:col-span-2 ${
               isInView ? 'animate-fade-in-up' : 'opacity-0'
             }`}
             style={{ animationDelay: '0.6s' }}
