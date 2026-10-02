@@ -49,7 +49,7 @@ const projects: Project[] = [
       'A complete web-based café management ecosystem divided into an HRMS and a Point of Sale (POS)/Kiosk module. Features dynamic environment routing and automated FTP deployment pipelines.',
     techStack: ['PHP', 'MySQL', 'GitHub Actions (CI/CD)'],
     buttons: [
-      { label: 'Live Demo', href: 'http://fika.freepage.cc', primary: true, icon: Globe },
+      { label: 'Live Demo', href: 'https://fika.freedev.app', primary: true, icon: Globe },
       { label: 'Source Code', href: 'https://github.com/renz-te/Fika', icon: Code2 },
     ],
     icon: Layers,
